@@ -1,3 +1,15 @@
+import Services from "@/components/Shared/Services/Services";
+import AboutAndHistory from "./AboutComponents/AboutAndHistory";
+import Missions from "./AboutComponents/Missions";
+import PageTitleWithBreadcrumb from "./AboutComponents/PageTitleWithBreadcrumb";
+
 export default function AboutUs() {
-  return <div>Welcome to About us page</div>;
+  return (
+    <>
+      <PageTitleWithBreadcrumb />
+      <AboutAndHistory />
+      <Missions />
+      <Services />
+    </>
+  );
 }
