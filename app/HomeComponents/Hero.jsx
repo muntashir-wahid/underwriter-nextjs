@@ -4,10 +4,11 @@ import Button from "@/components/Shared/Buttons/Button";
 
 export default function Hero() {
   return (
-    <section className="min-h-[70vh] bg-red-700 rounded-lg mt-10 mb-16 px-10 md:px-20 flex gap-10">
+    <section className="min-h-[70vh] bg-red-700 rounded-lg mt-10 px-10 md:px-20 flex gap-10">
       <div className="text-white w-full py-10 space-y-6">
-        <h1 className="text-5xl font-bold">
-          Get affordable, same-day coverage in no time.
+        <h1 className="text-5xl font-bold flex flex-col">
+          <span>Get affordable,</span>
+          <span>same-day coverage in no time.</span>
         </h1>
         <p className="font-medium">
           With roots over a century deep in the birthplace of the automobile
