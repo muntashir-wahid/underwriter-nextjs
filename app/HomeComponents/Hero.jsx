@@ -23,7 +23,7 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-      <figure className="w-full hidden md:block">
+      <figure className="w-full pl-16 hidden md:block">
         <img src="assets/images/person-img.png" className="h-full" />
       </figure>
     </section>

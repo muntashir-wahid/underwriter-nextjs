@@ -86,7 +86,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <div className="w-full bg-gray-800 lg:bg-gray-100 flex flex-col lg:flex-row lg:justify-between">
+      <div className="w-full bg-gray-800 lg:bg-gray-100 flex flex-col lg:flex-row lg:justify-between px-8 py-4">
         <div className="flex text-blue-50 flex-col lg:flex-row lg:text-gray-900 text-center lg:text-left">
           <p>Copyright 2022 USA Underwriters</p>
           <p> | Privacy Policy | Terms of Use</p>

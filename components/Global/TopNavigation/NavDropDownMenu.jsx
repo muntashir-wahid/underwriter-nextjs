@@ -7,7 +7,7 @@ export default function NavDropDownMenu({ navigationContents }) {
         <Link
           key={navContent.title}
           href={navContent.link}
-          className="text-white font-medium py-4 pl-8"
+          className="text-white font-medium py-4 pl-8 w-full"
         >
           {navContent.title}
         </Link>
