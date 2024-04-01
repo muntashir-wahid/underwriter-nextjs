@@ -78,13 +78,14 @@ const footerContent = [
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-        {footerContent.map((content) => (
-          <FooterCardAndAccordion key={content.id} content={content} />
-        ))}
+    <footer className="mt-10">
+      <div className="px-8 py-10 bg-gray-800">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+          {footerContent.map((content) => (
+            <FooterCardAndAccordion key={content.id} content={content} />
+          ))}
+        </div>
       </div>
-
       <div className="w-full bg-gray-800 lg:bg-gray-100 flex flex-col lg:flex-row lg:justify-between">
         <div className="flex text-blue-50 flex-col lg:flex-row lg:text-gray-900 text-center lg:text-left">
           <p>Copyright 2022 USA Underwriters</p>

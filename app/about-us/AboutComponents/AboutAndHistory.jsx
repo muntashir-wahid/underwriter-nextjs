@@ -1,5 +1,5 @@
 const backgroundImage = {
-  backgroundImage: `url(assets/images/report-sec-img.png)`,
+  backgroundImage: `url(assets/images/about-img.png)`,
   width: "100%",
   height: "100%",
   backgroundSize: "cover",

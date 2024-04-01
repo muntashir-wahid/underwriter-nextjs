@@ -5,7 +5,7 @@ import { BsChevronRight } from "react-icons/bs";
 
 export default function PageTitleWithBreadcrumb() {
   return (
-    <header className="flex flex-col items-center gap-2">
+    <header className="flex flex-col items-center gap-2 mt-10">
       <h1 className="font-medium text-gray-900 text-4xl text-center">
         About Us
       </h1>
