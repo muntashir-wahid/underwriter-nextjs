@@ -6,7 +6,7 @@ const defaultBtnClass =
 const variants = {
   red: `${defaultBtnClass} bg-red-700 text-white`,
   white: `${defaultBtnClass} bg-white text-gray-800`,
-  black: `${defaultBtnClass} text-gray-900 text-gray-200`,
+  black: `${defaultBtnClass} bg-gray-900 text-gray-200`,
 };
 
 export default function Button({
